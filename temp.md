@@ -1,7 +1,7 @@
-```mermaid
-graph TD;
-    A-->B;
-    A-->C;
-    B-->D;
-    C-->D;
-```
+classDiagram
+class Table {
++ID: int
++Name: string
++Age: int
++Country: string
+}
